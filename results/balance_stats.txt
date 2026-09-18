@@ -1,24 +1,24 @@
 === A. Streak avoidance significance (same position as previous Q) ===
-English  old      pairs= 2368 same= 18.7%  chance=25%  z=-7.1
+English  old      pairs= 3256 same= 18.9%  chance=25%  z=-8.1
 English  enhanced pairs=   98 same= 27.6%  chance=25%  z=+0.6
-Math     old      pairs= 1652 same= 20.7%  chance=20%  z=+0.7
+Math     old      pairs= 2655 same= 19.6%  chance=20%  z=-0.5
 Math     enhanced pairs=   88 same= 15.9%  chance=25%  z=-2.0
-Reading  old      pairs= 1170 same= 15.6%  chance=25%  z=-7.4
+Reading  old      pairs= 1833 same= 16.5%  chance=25%  z=-8.4
 Reading  enhanced pairs=   70 same= 14.3%  chance=25%  z=-2.1
-Science  old      pairs= 1209 same= 22.6%  chance=25%  z=-1.9
+Science  old      pairs= 2028 same= 21.8%  chance=25%  z=-3.3
 Science  enhanced pairs=   78 same= 17.9%  chance=25%  z=-1.4
 
 === B. Per-form letter balance: observed SD of per-position counts vs binomial SD if random ===
-English  N=75 choices=4 forms=32: per-position count mean=18.8 observed SD=1.51  random SD would be=3.75  min=17 max=22
-Math     N=60 choices=5 forms=28: per-position count mean=12.0 observed SD=2.05  random SD would be=3.10  min=6 max=17
-Reading  N=40 choices=4 forms=30: per-position count mean=10.0 observed SD=1.26  random SD would be=2.74  min=7 max=12
-Science  N=40 choices=4 forms=31: per-position count mean=10.0 observed SD=1.53  random SD would be=2.74  min=6 max=14
+English  N=75 choices=4 forms=44: per-position count mean=18.8 observed SD=1.44  random SD would be=3.75  min=17 max=22
+Math     N=60 choices=5 forms=45: per-position count mean=12.0 observed SD=1.78  random SD would be=3.10  min=6 max=17
+Reading  N=40 choices=4 forms=47: per-position count mean=10.0 observed SD=1.30  random SD would be=2.74  min=6 max=13
+Science  N=40 choices=4 forms=52: per-position count mean=10.0 observed SD=1.41  random SD would be=2.74  min=6 max=14
 
 === C. Within-block balance (old format): Reading per passage (10Q), English per passage (15Q), Science per 10Q, Math per 15Q ===
-English  block=15Q blocks=160 | min-count-of-any-letter distribution: {1: 16, 2: 75, 3: 69} | max-count distribution: {4: 24, 5: 104, 6: 30, 7: 2}
-Math     block=15Q blocks=112 | min-count-of-any-letter distribution: {0: 21, 1: 57, 2: 33, 3: 1} | max-count distribution: {3: 1, 4: 25, 5: 53, 6: 22, 7: 7, 8: 4}
-Reading  block=10Q blocks=120 | min-count-of-any-letter distribution: {0: 3, 1: 50, 2: 67} | max-count distribution: {3: 67, 4: 51, 5: 2}
-Science  block=10Q blocks=124 | min-count-of-any-letter distribution: {0: 14, 1: 68, 2: 42} | max-count distribution: {3: 42, 4: 63, 5: 19}
+English  block=15Q blocks=220 | min-count-of-any-letter distribution: {1: 27, 2: 92, 3: 101} | max-count distribution: {4: 36, 5: 134, 6: 47, 7: 3}
+Math     block=15Q blocks=180 | min-count-of-any-letter distribution: {0: 27, 1: 94, 2: 57, 3: 2} | max-count distribution: {3: 2, 4: 50, 5: 78, 6: 35, 7: 11, 8: 4}
+Reading  block=10Q blocks=188 | min-count-of-any-letter distribution: {0: 4, 1: 82, 2: 102} | max-count distribution: {3: 105, 4: 76, 5: 7}
+Science  block=10Q blocks=208 | min-count-of-any-letter distribution: {0: 21, 1: 123, 2: 64} | max-count distribution: {3: 66, 4: 105, 5: 33, 6: 4}
 
 === D. Enhanced-format forms only (25MC1, 25MC5): per-position counts by section ===
 25MC1 English  n=50 P1=15 P2=10 P3=11 P4=14

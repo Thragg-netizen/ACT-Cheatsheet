@@ -1,48 +1,48 @@
-FORMS (39): 25MC1 25MC5 52C 56B 59F 60E 61C 62D 63C 63E 64E 67C 71H 72E 72F 73C 73E 73G 74H B04 D03 D05 D06 E23 E25 E26 F07 F11 F12 G01 G19 G20 H11 H31 J08 Z04 Z08 Z14 Z15
-rows=7004
+FORMS (62): 25MC1 25MC5 52C 54D 55C 56B 57B 59F 60E 61C 61D 61F 62D 63C 63E 63F 64E 65C 65D 65E 66C 66F 67A 67C 67F 68A 68G 69F 70C 70G 71H 72E 72F 73C 73E 73G 74H A09 A10 B04 B05 C01 C03 D03 D05 D06 E23 E25 E26 F07 F11 F12 G01 G19 G20 H11 H31 J08 Z04 Z08 Z14 Z15
+rows=10444
 
 === 1. Correct-answer POSITION frequency (1=A/F 2=B/G 3=C/H 4=D/J 5=E/K) ===
-English  old      n= 2400 P1= 24.9% P2= 24.2% P3= 24.6% P4= 26.4%  chi2=  2.7 ns
+English  old      n= 3300 P1= 24.9% P2= 24.3% P3= 24.5% P4= 26.3%  chi2=  3.2 ns
 English  enhanced n=  140 P1= 25.7% P2= 20.0% P3= 25.7% P4= 28.6%  chi2=  2.2 ns
-Math     old      n= 1680 P1= 18.6% P2= 21.2% P3= 20.0% P4= 21.2% P5= 19.0%  chi2=  5.1 ns
+Math     old      n= 2700 P1= 19.0% P2= 20.9% P3= 20.3% P4= 20.9% P5= 18.9%  chi2=  5.6 ns
 Math     enhanced n=  131 P1= 25.2% P2= 26.0% P3= 25.2% P4= 23.7%  chi2=  0.1 ns
-Reading  old      n= 1200 P1= 23.5% P2= 26.2% P3= 24.3% P4= 25.9%  chi2=  2.4 ns
+Reading  old      n= 1880 P1= 23.7% P2= 26.2% P3= 24.3% P4= 25.8%  chi2=  3.2 ns
 Reading  enhanced n=   99 P1= 28.3% P2= 25.3% P3= 24.2% P4= 22.2%  chi2=  0.8 ns
-Science  old      n= 1240 P1= 25.8% P2= 26.0% P3= 23.5% P4= 24.7%  chi2=  2.1 ns
+Science  old      n= 2080 P1= 26.0% P2= 25.6% P3= 23.8% P4= 24.7%  chi2=  2.3 ns
 Science  enhanced n=  114 P1= 21.9% P2= 22.8% P3= 28.1% P4= 27.2%  chi2=  1.3 ns
 
 === 2. Same position as previous question (streak tendency) ===
-English  P(same as prev)= 19.0%  (random baseline ~25% for 4-choice; enhanced math is 4-choice)
-Math     P(same as prev)= 20.5%  (random baseline ~20% for 5-choice; enhanced math is 4-choice)
-Reading  P(same as prev)= 15.6%  (random baseline ~25% for 4-choice; enhanced math is 4-choice)
-Science  P(same as prev)= 22.3%  (random baseline ~25% for 4-choice; enhanced math is 4-choice)
+English  P(same as prev)= 19.1%  (random baseline ~25% for 4-choice; enhanced math is 4-choice)
+Math     P(same as prev)= 19.5%  (random baseline ~20% for 5-choice; enhanced math is 4-choice)
+Reading  P(same as prev)= 16.4%  (random baseline ~25% for 4-choice; enhanced math is 4-choice)
+Science  P(same as prev)= 21.7%  (random baseline ~25% for 4-choice; enhanced math is 4-choice)
 
 === 3. Runs of identical position (excluding J08) ===
-English  questions=2500 runs: len1:1625 len2:346 len3:57 len4:3  longest=4
-Math     questions=1770 runs: len1:1136 len2:219 len3:44 len4:11 len5:4  longest=5
-Reading  questions=1272 runs: len1:909 len2:147 len3:23  longest=3
-Science  questions=1320 runs: len1:796 len2:192 len3:40 len4:5  longest=4
+English  questions=3400 runs: len1:2204 len2:471 len3:78 len4:5  longest=4
+Math     questions=2790 runs: len1:1828 len2:344 len3:66 len4:14 len5:4  longest=5
+Reading  questions=1952 runs: len1:1365 len2:240 len3:33 len4:2  longest=4
+Science  questions=2160 runs: len1:1319 len2:316 len3:63 len4:5  longest=4
 
 === 4. Position frequency by quarter of section (old format) ===
-English  Q 1-18 n= 576 P1= 26.2% P2= 26.7% P3= 23.3% P4= 23.8%
-English  Q19-37 n= 608 P1= 23.8% P2= 23.2% P3= 27.1% P4= 25.8%
-English  Q38-56 n= 608 P1= 25.2% P2= 23.4% P3= 23.4% P4= 28.1%
-English  Q57-75 n= 608 P1= 24.3% P2= 23.5% P3= 24.5% P4= 27.6%
-Math     Q 1-15 n= 420 P1= 17.1% P2= 25.0% P3= 23.1% P4= 19.5% P5= 15.2%
-Math     Q16-30 n= 420 P1= 17.6% P2= 20.2% P3= 23.1% P4= 20.7% P5= 18.3%
-Math     Q31-45 n= 420 P1= 17.9% P2= 24.3% P3= 21.0% P4= 21.4% P5= 15.5%
-Math     Q46-60 n= 420 P1= 21.7% P2= 15.5% P3= 12.9% P4= 23.1% P5= 26.9%
-Reading  Q 1-10 n= 300 P1= 23.0% P2= 25.7% P3= 25.0% P4= 26.3%
-Reading  Q11-20 n= 300 P1= 23.7% P2= 25.3% P3= 25.0% P4= 26.0%
-Reading  Q21-30 n= 300 P1= 24.7% P2= 28.0% P3= 21.3% P4= 26.0%
-Reading  Q31-40 n= 300 P1= 22.7% P2= 26.0% P3= 26.0% P4= 25.3%
-Science  Q 1-10 n= 310 P1= 21.6% P2= 27.7% P3= 27.4% P4= 23.2%
-Science  Q11-20 n= 310 P1= 26.5% P2= 25.5% P3= 22.9% P4= 25.2%
-Science  Q21-30 n= 310 P1= 26.5% P2= 28.7% P3= 22.6% P4= 22.3%
-Science  Q31-40 n= 310 P1= 28.7% P2= 22.3% P3= 21.0% P4= 28.1%
+English  Q 1-18 n= 792 P1= 25.1% P2= 26.6% P3= 24.0% P4= 24.2%
+English  Q19-37 n= 836 P1= 25.4% P2= 22.5% P3= 26.4% P4= 25.7%
+English  Q38-56 n= 836 P1= 25.2% P2= 24.0% P3= 22.0% P4= 28.7%
+English  Q57-75 n= 836 P1= 23.9% P2= 24.2% P3= 25.5% P4= 26.4%
+Math     Q 1-15 n= 675 P1= 17.6% P2= 23.4% P3= 23.0% P4= 20.4% P5= 15.6%
+Math     Q16-30 n= 675 P1= 17.5% P2= 21.3% P3= 24.3% P4= 18.7% P5= 18.2%
+Math     Q31-45 n= 675 P1= 16.9% P2= 23.6% P3= 21.5% P4= 20.4% P5= 17.6%
+Math     Q46-60 n= 675 P1= 23.9% P2= 15.4% P3= 12.4% P4= 24.1% P5= 24.1%
+Reading  Q 1-10 n= 470 P1= 24.0% P2= 25.7% P3= 24.9% P4= 25.3%
+Reading  Q11-20 n= 470 P1= 23.6% P2= 26.2% P3= 24.0% P4= 26.2%
+Reading  Q21-30 n= 470 P1= 25.3% P2= 27.2% P3= 22.8% P4= 24.7%
+Reading  Q31-40 n= 470 P1= 21.9% P2= 25.7% P3= 25.3% P4= 27.0%
+Science  Q 1-10 n= 520 P1= 21.7% P2= 27.5% P3= 25.8% P4= 25.0%
+Science  Q11-20 n= 520 P1= 26.2% P2= 25.4% P3= 23.8% P4= 24.6%
+Science  Q21-30 n= 520 P1= 25.8% P2= 27.3% P3= 23.5% P4= 23.5%
+Science  Q31-40 n= 520 P1= 30.2% P2= 22.1% P3= 22.1% P4= 25.6%
 
 === 5. Per-form: are all positions used ~evenly? (min/max count of any position per section, old format) ===
-English  across 32 forms: least-used position count ranges down to 17, most-used up to 22 (of 75 Qs)
-Math     across 28 forms: least-used position count ranges down to 6, most-used up to 17 (of 60 Qs)
-Reading  across 30 forms: least-used position count ranges down to 7, most-used up to 12 (of 40 Qs)
-Science  across 31 forms: least-used position count ranges down to 6, most-used up to 14 (of 40 Qs)
+English  across 44 forms: least-used position count ranges down to 17, most-used up to 22 (of 75 Qs)
+Math     across 45 forms: least-used position count ranges down to 6, most-used up to 17 (of 60 Qs)
+Reading  across 47 forms: least-used position count ranges down to 6, most-used up to 13 (of 40 Qs)
+Science  across 52 forms: least-used position count ranges down to 6, most-used up to 14 (of 40 Qs)

@@ -1,5 +1,5 @@
 # ACT 
-Built 2026-09-18 from 33 real ACT forms with validated answer keys (6,239 answers; 30 old-format forms 1996–2023 from text extraction plus OCR, and three 2025 Enhanced forms 25MC1, 25MC5, J08), plus choice-text parses of 1,600 English and 510 Math questions. Every number below has its sample size. Baseline = what random would give.
+Built 2026-09-18 from 62 real ACT forms with validated answer keys (10,444 answers; 36 forms with all four sections; 59 old-format forms 1996–2023 from text extraction plus two OCR engines, and three 2025 Enhanced forms 25MC1, 25MC5, J08), plus choice-text parses of 1,600 English and 510 Math questions. Every number below has its sample size. Baseline = what random would give.
 
 ## Coverage
 | Source | Forms (any section) | Answers |
@@ -8,14 +8,14 @@ Built 2026-09-18 from 33 real ACT forms with validated answer keys (6,239 answer
 | text | 25 | 5114 |
 | tir-manual | 1 | 215 |
 | ocr-tir | 4 | 400 |
-| ocr-tess | 5 | 365 |
-| ocr-tess | 5 | 365 |
-| ocr-tess | 5 | 365 |
-| ocr-tess | 5 | 365 |
+| ocr-tess | 30 | 3805 |
+| ocr-tess | 30 | 3805 |
+| ocr-tess | 30 | 3805 |
+| ocr-tess | 30 | 3805 |
 | ocr-early | 7 | 910 |
-| **total** | **39** (29 with all four sections) | **7004** |
+| **total** | **62** (36 with all four sections) | **10444** |
 
-Of the 85 distinct full forms in the collection, 39 contribute at least one validated section. Every key passed two checks: exact question count per section, and the odd/even letter rule (odd questions A–E, even F–K). OCR-sourced keys were cross-checked where two independent engines read the same page (73C Math and Science: 100 of 100 letters agreed).
+Of the 85 distinct full forms in the collection, 62 contribute at least one validated section. Every key passed two checks: exact question count per section, and the odd/even letter rule (odd questions A–E, even F–K). OCR-sourced keys were cross-checked where two independent engines read the same page (73C Math and Science: 100 of 100 letters agreed).
 
 ## 1. The test you are taking (Enhanced ACT, mandatory on paper since Sept 2025)
 | Section | Questions | Minutes | Pace | Scored items |
@@ -42,18 +42,18 @@ Reading is brutal: about 27 scored questions, so every miss is roughly one scale
 ## 3. Patterns that are real (tested on this corpus)
 
 ### A. ACT balances the answer letters inside every section — use it to guess
-Across 25 old-format forms every English letter is correct 17–21 times out of 75, and across 30 forms every Reading letter is correct 7–12 times out of 40 (29 of 30 forms sit in 8–12). Random keys would spread about twice as wide (observed SD 1.5 vs random 3.75 in English; 1.3 vs 2.7 in Reading). It holds per passage too: in 97% of Reading passages all four letters appear at least once in the 10 questions, and no letter appears 5+ times in 99% of them.
+Across 44 old-format forms every English letter is correct 17–22 times out of 75, and across 47 forms every Reading letter is correct 6–13 times out of 40. Random keys would spread more than twice as wide (observed SD 1.4 vs random 3.75 in English; 1.3 vs 2.7 in Reading). It holds per passage too: in 98% of 188 Reading passages all four letters appear at least once in the 10 questions, and a letter appears 5 times in only 4% of them.
 How to use it: when you must guess, glance at your bubbles for that passage/section and pick the letter you have used least. On the two 2025 forms the balance looked looser (English 10–17 per letter of 50), so treat this as a tiebreaker, not a law.
 
 ### B. Consecutive answers avoid repeating the same letter (English, Reading)
 | Section | repeat rate | chance | pairs | significance |
 |---|---|---|---|---|
-| English (old) | 18.0% | 25% | 1,850 | z = -7.0 |
-| Reading (old) | 15.6% | 25% | 1,170 | z = -7.4 |
+| English (old) | 18.9% | 25% | 3,256 | z = -8.1 |
+| Reading (old) | 16.5% | 25% | 1,833 | z = -8.4 |
 | Reading (2025) | 14.3% | 25% | 70 | z = -2.1 |
-| Science | 22.4% | 25% | 1,092 | weak |
-| Math | 21.1% | 20% | 1,534 | none |
-Runs of 4 identical letters in a row occurred 3 times in 1,975 English answers and 0 times in 1,272 Reading answers. If you are guessing on a Reading or English question and you are confident about the neighbors, pick a letter different from both neighbors. Measured on this corpus, that lifts a blind guess from 25% to 29% in English and 33% in Reading (27% in Science; nothing in Math).
+| Science | 21.8% | 25% | 2,028 | z = -3.3 |
+| Math | 19.6% | 20% | 2,655 | none |
+Runs of 4 identical letters in a row occurred 5 times in 3,400 English answers and 2 times in 1,952 Reading answers. If you are guessing on a Reading or English question and you are confident about the neighbors, pick a letter different from both neighbors. Measured on this corpus, that lifts a blind guess from 25% to 29% in English and 32% in Reading (27% in Science; nothing in Math).
 
 ### C. English: DELETE is correct half the time; NO CHANGE is not special
 - "DELETE the underlined portion" / "OMIT" offered 90 times: correct 45 times (50%, chance 25%, z = 5.5). When DELETE is offered, seriously consider it. It is always the last choice (D/J).
