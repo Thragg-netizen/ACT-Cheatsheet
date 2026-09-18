@@ -1,4 +1,3 @@
-# never commit test booklets or extracted text
 *.pdf
 work/
 txt/
