@@ -8,13 +8,14 @@ Built 2026-09-18 from 33 real ACT forms with validated answer keys (6,239 answer
 | text | 25 | 5114 |
 | tir-manual | 1 | 215 |
 | ocr-tir | 4 | 400 |
-| ocr-tess | 3 | 215 |
-| ocr-tess | 3 | 215 |
-| ocr-tess | 3 | 215 |
+| ocr-tess | 5 | 365 |
+| ocr-tess | 5 | 365 |
+| ocr-tess | 5 | 365 |
+| ocr-tess | 5 | 365 |
 | ocr-early | 7 | 910 |
-| **total** | **37** (29 with all four sections) | **6854** |
+| **total** | **39** (29 with all four sections) | **7004** |
 
-Of the 85 distinct full forms in the collection, 37 contribute at least one validated section. Every key passed two checks: exact question count per section, and the odd/even letter rule (odd questions A–E, even F–K). OCR-sourced keys were cross-checked where two independent engines read the same page (73C Math and Science: 100 of 100 letters agreed).
+Of the 85 distinct full forms in the collection, 39 contribute at least one validated section. Every key passed two checks: exact question count per section, and the odd/even letter rule (odd questions A–E, even F–K). OCR-sourced keys were cross-checked where two independent engines read the same page (73C Math and Science: 100 of 100 letters agreed).
 
 ## 1. The test you are taking (Enhanced ACT, mandatory on paper since Sept 2025)
 | Section | Questions | Minutes | Pace | Scored items |
