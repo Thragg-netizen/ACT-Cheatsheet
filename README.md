@@ -1,4 +1,4 @@
-# ACT tomorrow — what the data actually says
+# ACT 
 Built 2026-09-18 from 33 real ACT forms with validated answer keys (6,239 answers; 30 old-format forms 1996–2023 from text extraction plus OCR, and three 2025 Enhanced forms 25MC1, 25MC5, J08), plus choice-text parses of 1,600 English and 510 Math questions. Every number below has its sample size. Baseline = what random would give.
 
 ## 1. The test you are taking (Enhanced ACT, mandatory on paper since Sept 2025)
