@@ -1,6 +1,18 @@
 # ACT 
 Built 2026-09-18 from 33 real ACT forms with validated answer keys (6,239 answers; 30 old-format forms 1996–2023 from text extraction plus OCR, and three 2025 Enhanced forms 25MC1, 25MC5, J08), plus choice-text parses of 1,600 English and 510 Math questions. Every number below has its sample size. Baseline = what random would give.
 
+## Coverage
+| Source | Forms (any section) | Answers |
+|---|---|---|
+| text | 25 | 5114 |
+| text | 25 | 5114 |
+| tir-manual | 1 | 215 |
+| ocr-tir | 3 | 225 |
+| ocr-early | 7 | 910 |
+| **total** | **34** (28 with all four sections) | **6464** |
+
+Of the 85 distinct full forms in the collection, 34 contribute at least one validated section. Every key passed two checks: exact question count per section, and the odd/even letter rule (odd questions A–E, even F–K). OCR-sourced keys were cross-checked where two independent engines read the same page (73C Math and Science: 100 of 100 letters agreed).
+
 ## 1. The test you are taking (Enhanced ACT, mandatory on paper since Sept 2025)
 | Section | Questions | Minutes | Pace | Scored items |
 |---|---|---|---|---|
